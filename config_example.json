@@ -1,0 +1,70 @@
+{
+    "type": "certificate",
+    "data_path": "./data.xlsx",
+    "font_config": {
+        "font_size": 12,
+        "font_family": "Arial",
+        "font_weight": 100,
+        "color": "#000000",
+        "font_path": "./fonts/bahnschrift.ttf"
+    },
+   "labels": [
+    {
+        "label": "nama",
+        "template": "template_1",
+        "position_x": 375,
+        "position_y": 297
+    },
+    {
+        "label": "asal",
+        "template": "template_1",
+        "position_x": 375,
+        "position_y": 338
+    },
+    {
+        "label": "kompetensi",
+        "template": "template_1",
+        "position_x": 375,
+        "position_y": 317
+    },
+    
+    {
+        "label": "litersasi_visual",
+        "template": "template_2",
+        "position_x": 654,
+        "position_y": 208
+    },
+    {
+        "label": "kerapian",
+        "template": "template_2",
+        "position_x": 654,
+        "position_y": 240
+    },
+    {
+        "label": "detail",
+        "template": "template_2",
+        "position_x": 654,
+        "position_y": 270
+    },
+    {
+        "label": "pemilihan_warna",
+        "template": "template_2",
+        "position_x": 654,
+        "position_y": 306
+    },
+    {
+        "label": "kualitas_hasil",
+        "template": "template_2",
+        "position_x": 654,
+        "position_y": 338
+    }
+   ],
+   "template_path": "./templates/",
+   "template_format": ".png",
+   "templates": [
+    "template_1",
+    "template_2"
+   ],
+   "output_dir": "./outputs",
+   "output_format": ".png"
+}
